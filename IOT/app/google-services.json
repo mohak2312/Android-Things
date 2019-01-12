@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "175211950594",
+    "firebase_url": "https://ece558proj3-mohakparchitt.firebaseio.com",
+    "project_id": "ece558proj3-mohakparchitt",
+    "storage_bucket": "ece558proj3-mohakparchitt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175211950594:android:5c34be68dee9be04",
+        "android_client_info": {
+          "package_name": "iot.edu.pdx.mohak.ece558.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175211950594-juuv5tkh2kdtcqpdjo8jq1a9r30q4beg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iot.edu.pdx.mohak.ece558.iot",
+            "certificate_hash": "22db4180b6908d974764d0d35a2677724115f2c4"
+          }
+        },
+        {
+          "client_id": "175211950594-2lpihfbkmue7uci5ujm9u82g0is9iagd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAviXC4MbG8x6To-OgDwjZMXy1_gByg1zE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175211950594-2lpihfbkmue7uci5ujm9u82g0is9iagd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175211950594:android:cf06f3032340cd69",
+        "android_client_info": {
+          "package_name": "project3.edu.pdx.atatwawadi.ece558.project3_companion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175211950594-6lap3lnqf87iel1rnvqr0n10qf6d9cdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project3.edu.pdx.atatwawadi.ece558.project3_companion",
+            "certificate_hash": "c6c90f847e8ef69b9335977eb2bc4cba4468754c"
+          }
+        },
+        {
+          "client_id": "175211950594-2lpihfbkmue7uci5ujm9u82g0is9iagd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAviXC4MbG8x6To-OgDwjZMXy1_gByg1zE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175211950594-2lpihfbkmue7uci5ujm9u82g0is9iagd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

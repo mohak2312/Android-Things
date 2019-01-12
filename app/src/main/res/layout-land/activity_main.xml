@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<TextView
+		android:id="@+id/temptxtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:text="@string/ambient_temperature"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/tempview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:layout_toRightOf="@+id/temptxtview"
+		android:gravity="center"
+		android:paddingLeft="20dp"
+		android:text="1"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/adc4txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tempview"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:paddingLeft="30dp"
+		android:text="ADC 4:"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/adc3txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tempview"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_toLeftOf="@id/adc4txtview"
+		android:gravity="center"
+		android:paddingRight="100dp"
+		android:text="ADC 3:"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/adc5txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tempview"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_toRightOf="@id/adc4txtview"
+		android:gravity="center"
+		android:paddingLeft="100dp"
+		android:text="ADC 5:"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/adc4view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tempview"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_toRightOf="@+id/adc4txtview"
+		android:gravity="center"
+		android:paddingLeft="10dp"
+		android:text="1"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/adc3view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tempview"
+		android:layout_alignLeft="@+id/adc3txtview"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:paddingLeft="80dp"
+		android:text="1"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/adc5view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tempview"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:layout_toRightOf="@+id/adc5txtview"
+		android:gravity="center"
+		android:paddingLeft="10dp"
+		android:text="1"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/dac1txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/adc4view"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:paddingLeft="40dp"
+		android:paddingRight="40dp"
+		android:text="DAC1OUT"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/dac1view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/dac1txtview"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:text="1"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/plus_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/adc3view"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_toStartOf="@+id/dac1txtview"
+		android:text="+" />
+
+	<Button
+		android:id="@+id/minus_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/adc5view"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_toEndOf="@+id/dac1txtview"
+		android:text="-" />
+
+	<TextView
+		android:id="@+id/pwm3txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/dac1view"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="@string/pwm3_motor_duty"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<ProgressBar
+		android:id="@+id/progressBar"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/pwm3txtview"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:progress="25" />
+
+	<TextView
+		android:id="@+id/progressBar_txt"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/pwm3txtview"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:text="25%"
+		android:textColor="#000000"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/pwm4txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+		android:layout_below="@+id/progressBar"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="PWM 4:"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<SeekBar
+		android:id="@+id/pwm4seekBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingRight="15dp"
+		android:layout_below="@+id/progressBar"
+        android:layout_toEndOf="@+id/pwm4txtview"
+		android:layout_alignParentStart="false"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="15dp"
+		android:max="100"
+		android:progress="0" />
+
+	<TextView
+		android:id="@+id/pwm5txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+		android:layout_below="@+id/pwm4txtview"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="PWM 5:"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<SeekBar
+		android:id="@+id/pwm5seekBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingRight="15dp"
+		android:layout_below="@+id/pwm4seekBar"
+        android:layout_toEndOf="@+id/pwm5txtview"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:max="100"
+		android:progress="0" />
+
+	<TextView
+		android:id="@+id/pwm6txtview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/pwm5txtview"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="PWM 6:"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<SeekBar
+		android:id="@+id/pwm6seekBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingRight="15dp"
+		android:layout_below="@+id/pwm5seekBar"
+        android:layout_toEndOf="@+id/pwm6txtview"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="18dp"
+		android:max="100"
+		android:progress="0" />
+
+</RelativeLayout>
